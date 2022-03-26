@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="429" height="384" viewBox="0 0 429 384">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Intersección_4" data-name="Intersección 4" d="M0,156V35.033C16.75,15.627,50.466,1.717,116.64,42.471,177.8,80.14,211.01,55.536,239.307,30.931c25.269-21.971,46.624-43.943,80.481-21.57,71.77,47.426,35.29,103.432,103.689,48.1q2.824-2.285,5.523-4.13V156Z" transform="translate(285 8442)" fill="#a8edfa"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_146094" data-name="Grupo 146094" transform="translate(-285 -4674)">
+    <rect id="Rectángulo_44547" data-name="Rectángulo 44547" width="429" height="384" rx="12" transform="translate(285 4674)" fill="#b4f3ff"/>
+    <g id="Enmascarar_grupo_143936" data-name="Enmascarar grupo 143936" transform="translate(0 -3540)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_44403" data-name="Rectángulo 44403" width="430" height="400" rx="12" transform="translate(285 8198)" fill="#a8edfa"/>
+    </g>
+  </g>
+</svg>

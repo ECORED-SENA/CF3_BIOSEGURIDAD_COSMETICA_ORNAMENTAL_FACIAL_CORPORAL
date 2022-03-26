@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1331" height="1140.351" viewBox="0 0 1331 1140.351">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#defaff"/>
+      <stop offset="1" stop-color="#fdf6f2"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_146094" data-name="Grupo 146094" transform="translate(-133 -809.825)">
+    <path id="Intersección_1" data-name="Intersección 1" d="M45,853.967V636.574C96.85,601.7,201.22,576.7,406.067,649.942c189.339,67.7,292.129,23.479,379.725-20.739,78.221-39.484,144.329-78.971,249.134-38.764,222.169,85.23,109.242,185.88,320.976,86.446q8.743-4.106,17.1-7.422v184.5Z" transform="translate(91 236.209)" fill="#defaff"/>
+    <rect id="Rectángulo_44535" data-name="Rectángulo 44535" width="1331" height="860" transform="translate(133 1090.176)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
