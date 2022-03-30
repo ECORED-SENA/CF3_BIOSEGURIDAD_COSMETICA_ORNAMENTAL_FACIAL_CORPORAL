@@ -9,7 +9,7 @@
 
     p.mb-5 Estas se definen como aquellos lineamientos y procedimientos que se deben cumplir a cabalidad para tener una adecuada protección de todas las personas que se encuentren expuestas a un contacto directo o indirecto, temporal o permanente, con agentes de tipo biológico, físico o de tipo químico. 
     
-      .cajon.color-primario.mb-5.pb-0
+      .cajon.color-primario.mb-5.pb-0(data-aos="zoom-in-up")
         .row
           .col.col-md-8
             p.px-5.pt-4.pb-4 El objetivo de la bioseguridad es servir como punto de contención de las posibles enfermedades que pudiesen salir de la manipulación de cualquier elemento biológico y así evitar, al máximo, accidentes de orden laboral que afecten la salud de los trabajadores o de las demás personas. 
@@ -247,7 +247,7 @@
         p <strong>Comprendidos los sistemas defensa innato y adquirido del ser humano, se entran a caracterizar los agentes biológicos, químicos y cosméticos que pueden estar presente en las actividades laborales, y que son:</strong>
 
     
-      .row.h-568.justify-content-center.align-content-center.mb-5
+      .row.justify-content-center.align-content-center.mb-5
         .col-lg-5.bg05.p-5.pb-0(data-aos="fade-left")
           h2.mb-5.pt-3 Agente biológico 
           p.mb-4 Según Lozano y Montero (2015), dentro de las enfermedades más frecuentes que se asocian al riesgo biológico son aquellas que son causadas por la presencia de agentes de tipo micótico en el lugar de desarrollo de las actividades cosmética ornamental, facial y corporal; las cuales generan en la persona que estuvo expuesta infecciones, alergias o toxicidad, principalmente en la piel. 
@@ -256,7 +256,7 @@
           figure(data-aos="fade-right")
             img.img-fluid(src='@/assets/curso/tema1/img22.svg')
     
-      .row.h-635.justify-content-center.align-content-center.mb-5
+      .row.justify-content-center.align-content-center.mb-5
         .col-lg-5.p-0(data-aos="fade-left")
           figure
             img.img-fluid(src='@/assets/curso/tema1/img23.svg')
@@ -361,7 +361,7 @@
         p
 
 
-    .row.justify-content-center(data-aos="fade-right") 
+    .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10
         .tarjeta.color.color.bg03.p-3.mb-5
           .row.justify-content-around.align-items-center
