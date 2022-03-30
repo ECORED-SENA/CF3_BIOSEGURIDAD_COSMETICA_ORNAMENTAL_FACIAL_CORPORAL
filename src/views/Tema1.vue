@@ -9,14 +9,13 @@
 
     p.mb-5 Estas se definen como aquellos lineamientos y procedimientos que se deben cumplir a cabalidad para tener una adecuada protección de todas las personas que se encuentren expuestas a un contacto directo o indirecto, temporal o permanente, con agentes de tipo biológico, físico o de tipo químico. 
     
-      .cajon.color-primario.mb-5.pb-0(data-aos="zoom-in-up")
-        .row
-          .col.col-md-8
-            p.px-5.pt-4.pb-4 El objetivo de la bioseguridad es servir como punto de contención de las posibles enfermedades que pudiesen salir de la manipulación de cualquier elemento biológico y así evitar, al máximo, accidentes de orden laboral que afecten la salud de los trabajadores o de las demás personas. 
-          .col.col-md-4
-            figure.position02
-              img.img01.d-none.d-lg-block(src="@/assets/curso/tema1/img01.svg")
-
+      .row.cajon.color-primario.p-4.mb-5.m-1.justify-content-center.align-items-center(data-aos="zoom-in-up")
+        .col-md-8.col.lg-9
+          p El objetivo de la bioseguridad es servir como punto de contención de las posibles enfermedades que pudiesen salir de la manipulación de cualquier elemento biológico y así evitar, al máximo, accidentes de orden laboral que afecten la salud de los trabajadores o de las demás personas. 
+        .col-12.col-md-4.col-lg-3
+          figure.position02
+            img.img01.d-none.d-lg-block(src="@/assets/curso/tema1/img01.svg")
+    
       .row.mb-5.justify-content-center
         .col-lg-12
           .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
@@ -112,7 +111,7 @@
             .col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Haga clic en el siguiente ícono para descargar la información.            
+                  <h5 style="color:#483C8C !important; font-weight: bold;"> Haga clic en el siguiente ícono para descargar la información. </h5>           
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/GUIA RIESGO BIOLÓGICO PARA TRABAJADORES.pdf')" target="_blank")
                     span Descargar
@@ -256,7 +255,7 @@
           figure(data-aos="fade-right")
             img.img-fluid(src='@/assets/curso/tema1/img22.svg')
     
-      .row.justify-content-center.align-content-center.mb-5
+      .row.justify-content-center.align-content-center.mb-4
         .col-lg-5.p-0(data-aos="fade-left")
           figure
             img.img-fluid(src='@/assets/curso/tema1/img23.svg')
@@ -266,7 +265,7 @@
           p Por lo general, los químicos que se pueden presentar este nivel de toxicidad son: productos para tinturar el cabello, productos para cuidar el sistema tegumentario y las uñas, el líquidos para realizar arreglo de uñas permanentes, los champús, los productos para realizar maquillaje, los productos para realizar procesos de limpieza y desinfección, entre otros agentes contaminantes que, si no se alinean con las debidas normas de seguridad, pueden generar un grave riesgo de salud para los colaboradores.
     
     <br><br/>
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center
       .col-lg-7.mb-5(data-aos="fade-right") 
         p <strong>Es importante ampliar los aspectos relacionados con los riesgos químicos, porque pueden generar varias enfermedades de tipo ocupacional para los trabajadores en el área de la cosmética ornamental. Para ello, le invitamos a leer las páginas 4 a 18 del documento Riesgo químico en peluquerías que se encuentra a continuación.</strong>             
         .tarjeta.color.color.bg03.p-3.mb-5
@@ -277,7 +276,7 @@
               a.mb-4.me-5.pt-2.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/RIESGO_PELUQUERIA.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-      .col-lg-5.mb-5
+      .col-lg-5.mt-2.align-self-start
         figure(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img32.svg")
 
@@ -298,7 +297,7 @@
             ul.lista-ul.mb-5
               li 
                 <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Infecciones bacterianas.  
+                | Infecciones bacterianas. 
               li 
                 <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
                 | Infecciones víricas. 

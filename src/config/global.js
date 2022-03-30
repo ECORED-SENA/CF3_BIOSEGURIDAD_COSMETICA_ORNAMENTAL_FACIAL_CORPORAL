@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'Esta experiencia de aprendizaje surge del desconocimiento de los establecimientos de cosmética ornamental, facial y corporal en la integración de procedimientos y acciones de gestión y mantenimiento de equipos y otros. Así, este contenido va dirigido a la verificación del cumplimiento de normas de seguridad de productos y equipos de uso cosmético según el manual de bioseguridad y la normativa vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [

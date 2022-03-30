@@ -55,8 +55,8 @@
 
       .col-lg-6.mb-5
         p Para una mayor claridad al respecto, se describirán cada uno de ellos.  
-      .col-lg-12.mb-5(data-aos="fade-right") 
-        TabsB.color-acento-contenido.mb-5
+      .col-lg-12(data-aos="fade-right") 
+        TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="Cosméticos acordes a su función" :icono="require('@/assets/curso/tema2/img05.svg')")
             .row.p-4
               .col-8
