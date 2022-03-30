@@ -7,57 +7,55 @@
         span.text-white 2
       h1 Manejo de productos y equipos cosméticos
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="fade-right") 
       .col-lg-12
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 De la mano de la prevención y bioseguridad en el contexto de la cosmética ornamental, facial y corporal, está el reconocimiento por parte de los funcionarios de las características y uso de los productos y equipos cosméticos. Antes de reconocer algunos aspectos, es importante comprender que un producto cosmético es un elemento que parte de una fórmula para su aplicación en zonas superficiales del cuerpo humano. Sus principales funciones son limpiar, proteger, perfumar y transformar el aspecto del cuerpo. 
+            p.mb-0 De la mano de la prevención y bioseguridad en el contexto de la cosmética ornamental, facial y corporal, está el reconocimiento por parte de los funcionarios de las características y uso de los productos y equipos cosméticos. Antes de reconocer algunos aspectos, es importante comprender que un producto cosmético es un elemento que parte de una fórmula para su aplicación en zonas superficiales del cuerpo humano. Sus principales funciones son limpiar, proteger, perfumar y transformar el aspecto del cuerpo.                
+    
+    .row.justify-content-center.mb-5.BGIMG02
+      .col-md-6.col-lg-4.mb-5.mb-lg-0(data-aos="fade-right") 
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
+          .tarjeta.color.bg01.border.border-info
+            .p-4
+              h3.text-center Elementos internos
+              p Se caracterizan por aquellos componentes que están en el cosmético. Este desempeñará la función específica para lo cual fue fabricado.
+      .col-md-6.col-lg-4.mb-5.mb-lg-0(data-aos="fade-left") 
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
+          .tarjeta.color.bg01.border.border-info
+            .p-4
+              h3.pt-2.text-center Elementos externos
+              p Corresponde a los elementos adicionales como el envase, cartón, empaque, etiquetado, prospecto y medios de difusión.
 
-    .row.justify-content-center.align-items-center.BGIMG02.mb-5
-      .col-lg-4.mb-4
-        .tarjeta-avatar
-            img.px-2(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
-            .bg01.p-4
-              .row.p-4
-                .col-11
-                  <br><br><br>
-                  h4 Elementos internos
-                  p Se caracterizan por aquellos componentes que están en el cosmético. Este desempeñará la función específica para lo cual fue fabricado.
-      .col-lg-4.mb-4
-        .tarjeta-avatar
-            img.px-2(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
-            .bg01.p-4
-              .row.p-4
-                .col-11
-                  <br><br><br>
-                  h4 Elementos externos
-                  p Corresponde a los elementos adicionales como el envase, cartón, empaque, etiquetado, prospecto y medios de difusión.
-      .col-lg-12
-        br
-      .col-lg-4.mb-5
-        p La clasificación de los cosméticos se puede realizar en el marco de tres variables:
-      .col-lg-3.mb-5
-        .tarjeta.bg06.p-4 
-          ol.lista-ol--cuadro
-            li 
-              .lista-ol--cuadro__vineta
-                span 1
-              | Función.
-            li 
-              .lista-ol--cuadro__vineta
-                span 2
-              | Nivel de uso.
-            li 
-              .lista-ol--cuadro__vineta
-                span 3
-              | Zona de acción.
+      .row.justify-content-center.align-items-center
+        .col-lg-12
+          br
+        .col-lg-4.mb-5(data-aos="fade-right") 
+          p.text-end La clasificación de los cosméticos se puede realizar en el marco de tres variables:
+        .col-lg-3.mb-5(data-aos="fade-left") 
+          .tarjeta.bg06.p-4.me-5 
+            ol.lista-ol
+              li 
+                .lista-ol.BGIMG04
+                  span.ps-2 1                
+                |  Función.
+              li 
+                .lista-ol.BGIMG04
+                  span.ps-2 2
+                | Nivel de uso.
+              li 
+                .lista-ol.BGIMG04
+                  span.ps-2 3
+                | Zona de acción.
 
       .col-lg-6.mb-5
         p Para una mayor claridad al respecto, se describirán cada uno de ellos.  
-      .col-lg-12.mb-5
+      .col-lg-12.mb-5(data-aos="fade-right") 
         TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Cosméticos acordes a su función" :icono="require('@/assets/curso/tema2/img05.svg')")
             .row.p-4
@@ -105,7 +103,7 @@
                     | Para glándulas de tipo sudoríparas. 
 
     .row.justify-content-center.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right") 
         .row
           .col-12
             <br><br>
@@ -115,15 +113,16 @@
                 br
                 br
                 | Realizada una aproximación a la clasificación de los productos cosméticos, se hace necesario hablar sobre su almacenamiento y conservación, y deben seguir lineamientos que garanticen la vida útil de los mismos, por ello se sugiere cumplir con las siguientes recomendaciones.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left") 
         img(src="@/assets/curso/tema2/img08.svg")
     
-    .row.justify-content-center.mb-4
+      .row.justify-content-center.mt-5.me-0
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido
+              h5 Tabla 1 Normas de conservación y almacenamiento
+      
+    .row.justify-content-center.mb-4(data-aos="zoom-in-up")
       .col-lg-10.mb-5
-        h3.titulo-tercero Tabla 1
-        span Normas de conservación y almacenamiento
-      .col-lg-10.mb-5
-        .tabla-c
           table
             tr.bg07
               td
@@ -150,7 +149,7 @@
         .row.justify-content-center
           .col-lg-10
             p Todo lo que corresponde a las necesidades de almacenamiento del establecimiento de cosmética ornamental, facial o corporal debe ser acorde con el volumen de los productos cosméticos utilizados. En el diseño del área de almacenamiento se deben tener presentes los siguientes aspectos: 
-      .col-lg-5.bg09.mb-5
+      .col-lg-5.bg09.mb-5(data-aos="fade-right") 
         SlyderA(tipo="b")
           .row.justify-content-center
             .col-1.mb-4
@@ -194,16 +193,16 @@
                 h1.text-white.mb-2 7
             .col-12.mb-4.p-5
               p.text-white La ventilación debe contribuir a prevenir el riesgo de contaminación de tipo cruzada generada por poca ventilación.      
-      .col-lg-5.p-0.mb-5
+      .col-lg-5.p-0.mb-5(data-aos="fade-left") 
          img(src="@/assets/curso/tema2/img09.svg")
 
       .cajon.color-acento-contenido.p-4.mb-0.justify-content-center
         .row.justify-content-center
           .col-lg-10
             p Es de vital importancia que las especificaciones de calidad para la aceptación de los productos cosméticos sean establecidas previo a los procesos de compra, por lo tanto, se deben tener presentes las siguientes recomendaciones: 
-      .col-lg-5.p-0.mb-5
+      .col-lg-5.p-0.mb-5(data-aos="fade-right") 
          img(src="@/assets/curso/tema2/img10.svg")
-      .col-lg-5.bg09.mb-5
+      .col-lg-5.bg09.mb-5(data-aos="fade-left") 
         SlyderA(tipo="b")
           .row.justify-content-center
             .col-1.mb-4
@@ -252,17 +251,17 @@
     br
     p.mb-5 Es importante tener presente que las fichas técnicas son un complemento a las instrucciones técnicas de utilización, pero no las reemplazan. Los datos que están dispuestos en estos documentos están basados en las condiciones de conocimiento del producto a la fecha de su emisión. A continuación, se exponen los conceptos básicos que se deben de tener en cuenta al momento de elegir un producto cosmético. 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-lg-9
         img(src="@/assets/curso/tema2/img11.svg")
 
-    .cajon.color-primario.p-4.mb-5.justify-content-center
+    .cajon.color-primario.p-4.mb-5.justify-content-center(data-aos="zoom-in-up")
           p.px-4 Para finalizar, se hace referencia al plan para el mantenimiento preventivo y correctivo de los equipos. Este se define como un proceso que se debe cumplir con la aparatología de uso estético para garantizar la correcta vida útil del mismo. Este proceso lo deben ejecutar profesionales que emitan un certificado de mantenimiento. Aquí es necesario comprender que el funcionamiento de los equipos para los tratamientos corporales y faciales (aparatología) se da entre el fabricante y el propietario o tenedor. 
     
     .row.justify-content-center
-      .col-lg-4.p-4.mb-5
+      .col-lg-4.p-4.mb-5(data-aos="fade-left") 
         img(src="@/assets/curso/tema2/img12.svg") 
-      .col-lg-6.mb-5
+      .col-lg-6.mb-5(data-aos="fade-right") 
         .row
           .col-lg-12
             <br><br><br>

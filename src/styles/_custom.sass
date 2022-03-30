@@ -24,6 +24,7 @@
 
 .bg09
   background-color:#483C8C
+
   
 //-tamaño imagenes
 
@@ -57,6 +58,26 @@
   max-width: 120px
 .img200
   max-width: 200px
+.img250
+  max-width: 250px
+.img295
+  max-width: 295px
+.img300
+  max-width: 300px
+.img500
+  max-width: 500px
+
+.img-especial
+  margin-top: -50px;
+
+.h-305
+  height: 305px;
+
+.h-568
+  height: 568px;
+
+.h-635
+  height: 635px;
 
 .flex-end
   display: flex;
@@ -73,13 +94,45 @@
       z-index: 99
       animation: float 3s ease-in-out infinite alternate
 
+.flex-container
+  display: flex;
+  /* flex-direction: row */
+  flex-wrap: wrap; 
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  /* align-items: flex-start; */
+
+.align-self-start
+  align-self: flex-start;
+
 .bg-header
-  background-image: url("../assets/curso/tema1/img05.png")
+  background-image: url("../assets/curso/tema1/img29.svg");
+  /* width: 77.43em; */
+  /* height: 16.94em; */
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
+  background-position: center;
+
+.tamano-tar
+  width: 1239px;
+  height: 506px;
+
+
+.navar
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+.img-agente-biologico
+  background-image: url("../assets/curso/tema1/img22.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 568px;
+  width: 100%; 
 
 .contenedor-especial
-  background-image: url("../assets/curso/tema1/img05.png")
+  background-image: url("../assets/curso/tema1/img05.svg")
   background-repeat: no-repeat
   background-size: cover
   background-position: center
@@ -107,6 +160,10 @@
   border-radius: 120px
   width: 60px 
   
+.BGIMG04
+  background-color: #FFFF
+  border-radius: 60px
+  width: 25px 
 
 .text-inferior
   width: 100%;
@@ -161,10 +218,20 @@
 .tabla-c td
   width: 35%
 
+
 .position01
   position: relative
   bottom: -30%
 
 .position02
-  position: relative
-  bottom: -5%
+  position: absolute
+  bottom: -3%
+  top: -35px
+  max-width: 200px
+
+.flex-end
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
