@@ -2,7 +2,7 @@
   background-color: #fff
 
 .bg02
-  background-color: #DEFAFF
+  background-color: #DEFAFF 
 
 .bg03
   background-color: #DEFAFF
@@ -23,7 +23,7 @@
   background-color: #F6F6F6
 
 .bg09
-  background-color:#483C8C
+  background-color:#483C8C 
 
   
 //-tamaño imagenes
@@ -56,6 +56,12 @@
   max-width: 110px
 .img120
   max-width: 120px
+.img163
+  max-width: 163px
+.img180
+  max-width: 180px
+.img192
+  max-width: 192.78px
 .img200
   max-width: 200px
 .img250
@@ -64,11 +70,25 @@
   max-width: 295px
 .img300
   max-width: 300px
+.img330
+  max-width: 330px
+.img386
+  max-width: 386px
+.img452
+  max-width: 452px
 .img500
   max-width: 500px
+.img781
+  max-width: 781px
+
 
 .img-especial
-  margin-top: -50px;
+  margin-top: -73px;
+  margin-inline-start: -20px;
+
+.a_tarjeta
+  margin-top: -33px;
+  margin-inline-start: -20px;
 
 .h-305
   height: 305px;
@@ -84,6 +104,13 @@
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-end;
+  flex-direction: row;
+
+.flex-center
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
   flex-direction: row;
 
 .imagen-adornos-flotantes
@@ -139,21 +166,44 @@
   
 .contenedor-especial2
   background-image: url("../assets/curso/tema1/img07.png")
-  background-size: 100% 100%
-  background-repeat: no-repeat
-  background-position: top 100px
-
-.BGIMG01
-  background-image: url("../assets/curso/tema1/img15.svg")
-  background-repeat: no-repeat
+  height: 515px
   background-size: cover
-  background-position: center  
+  /*background-repeat: no-repeat*/
+  background-position: center
+
+
+.bg_img01
+  background-image: url("../assets/curso/tema1/img15.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center 
+  border-radius: 10px
 
 .BGIMG02
   background-image: url("../assets/curso/tema2/img02.svg")
   background-repeat: no-repeat
+  height: 1140.35px
+  width: 1331px
   background-size: cover
-  background-position: center  
+  background-position: center 
+  position: relative
+  margin: 0 -3rem
+  top: -1rem 
+
+/**.bg_contenedor
+  position: relative
+  .row, img, p, .tarjeta-color
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -1rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 90%
+    background-image: url("../assets//curso/tema1/img07.png")
+    background-repeat: no-repeat
 
 .BGIMG03
   background-color: #F18385
@@ -164,6 +214,9 @@
   background-color: #FFFF
   border-radius: 60px
   width: 25px 
+
+.bg_img05
+  background-image: url("../assets/curso/tema1/img33.svg")
 
 .text-inferior
   width: 100%;
@@ -225,9 +278,10 @@
 
 .position02
   position: absolute
-  bottom: -3%
-  top: -35px
-  max-width: 200px
+  bottom: 0%
+  top: -15px
+  max-width: 197px
+  right: 11%
 
 .flex-end
   display: flex;
@@ -235,3 +289,90 @@
   align-items: flex-end;
   justify-content: flex-end;
   flex-direction: row;
+
+.banner-interno__fondo
+  background-image: ('@/assets/curso/portada/interno.svg'),!important
+
+.bg_contenedor
+  position: relative
+  .row, img, p, .tarjeta-color
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -1rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 90%
+    background-image: url("../assets//curso/tema1/img07.png")
+    background-repeat: no-repeat
+
+.martop
+  margin-top: 5em
+
+.martop1
+  margin-top: 3em
+
+.pbotton
+  padding-botton: 4em
+
+.bg_content
+  width: 452px
+  height: 300px
+
+.bg_content2
+  width: 884px
+  height: 209px
+  left: 10%
+  right: 5%
+  position: absolute 
+
+.font-style
+  property: font-style;
+  class: fst;
+  values: italic;
+
+.bloque-texto-g__img 
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+
+.bloque_1
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+.bloque-texto-g__texto
+  width: 78%;
+  background-color: rgba(255, 255, 255, 0.95);
+
+.contenedor--texto-right
+  position: relative
+  *
+    position: relative
+  &::before
+    position: absolute
+    content: ''
+    top: -15%
+    bottom: 64%
+    left: 0
+    right: 50%
+    background-color: #DEFAFF 
+
+.contenedor--texto-right2
+  position: relative
+  *
+    position: relative
+  &::before
+    position: absolute
+    content: ''
+    top: 10%
+    bottom: 40%
+    left: -4%
+    right: 65%
+    background-color: #FDE9E0

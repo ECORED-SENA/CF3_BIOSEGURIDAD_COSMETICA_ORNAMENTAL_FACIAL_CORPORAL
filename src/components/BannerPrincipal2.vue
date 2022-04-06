@@ -6,23 +6,23 @@
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
       .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
-          h1.mb-0(v-html="globalData.componenteFormativo")
+          h1.mb-3.mt-2(v-html="globalData.componenteFormativo")
         .col-lg-12
           .banner-principal__descripcion
-            p.mb-0(v-html="globalData.descripcionCurso")
+            p.mb-5(v-html="globalData.descripcionCurso")
         .banner-principal__accion
-          router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Ver más
+          router-link.boton.mt-2(:to="{name: iniciarLnk.nombreRuta }")
+            span.me-1 Iniciar
             i.fas.fa-angle-right
 
-      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+      .d-none.d-lg-block.col-lg-5.px-5.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
-    .imagen_flotante_1: img(src="@/assets/curso/portada/float1.png")
-    .imagen_flotante_2: img(src="@/assets/curso/portada/float2.png")
-    .imagen_flotante_3: img(src="@/assets/curso/portada/float3.png")
-    .imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/portada/float3.png")
-    .imagen_flotante_7: img(src="@/assets/curso/portada/float2.png")
-    .imagen_flotante_8: img(src="@/assets/curso/portada/float1.png")
+    //-.imagen_flotante_1: img(src="@/assets/curso/portada/float1.png")
+    //-.imagen_flotante_2: img(src="@/assets/curso/portada/float2.png")
+    //-.imagen_flotante_3: img(src="@/assets/curso/portada/float3.png")
+    //-.imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/portada/float3.png")
+    //-.imagen_flotante_7: img(src="@/assets/curso/portada/float2.png")
+    //-.imagen_flotante_8: img(src="@/assets/curso/portada/float1.png")
   
 
 </template>

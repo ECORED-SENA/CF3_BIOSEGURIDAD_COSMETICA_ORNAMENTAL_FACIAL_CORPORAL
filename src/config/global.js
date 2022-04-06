@@ -1,10 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'Productos y equipos de uso cosmético',
+    componenteFormativo: 'Productos y equipos de uso <br> cosmético',
     descripcionCurso:
       'Esta experiencia de aprendizaje surge del desconocimiento de los establecimientos de cosmética ornamental, facial y corporal en la integración de procedimientos y acciones de gestión y mantenimiento de equipos y otros. Así, este contenido va dirigido a la verificación del cumplimiento de normas de seguridad de productos y equipos de uso cosmético según el manual de bioseguridad y la normativa vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerInterno: require('@/assets/curso/interno.png'),
   },
   menuPrincipal: {
     menu: [
@@ -76,14 +77,14 @@ export default {
   referencias: [
     {
       referencia:
-        'Comunidad Andina de Naciones. (2002). Decisión 516 de 2002. Armonización de legislaciones en materia de productos cosméticos. ',
+        'Comunidad Andina de Naciones. (2002). Decisión 516 de 2002. Armonización de legislaciones en materia de productos cosméticos.',
       link: 'https://www.invima.gov.co/documents/20143/449018/DECISION+516.pdf',
     },
     {
       referencia:
         'Coton, V., M. C. (3 de 2015). Riesgo químico en peluquería. Libraria Xunta.',
       link:
-        'https://libraria.xunta.gal/sites/default/files/downloads/publicacion/15-00149_- _riesgo_quimico_en_peluquerias._os_conece_do_issga.servizos.pdf ',
+        'https://libraria.xunta.gal/sites/default/files/downloads/publicacion/15-00149_- _riesgo_quimico_en_peluquerias._os_conece_do_issga.servizos.pdf',
     },
     {
       referencia:
@@ -119,7 +120,7 @@ export default {
     {
       termino: 'Aditivos de un producto cosmético',
       significado:
-        'productos que se añaden al cosmético para prevenir el deterioro y mejorar su presentación. Ejemplo: Conservantes, colorantes, perfumes.',
+        'productos que se añaden al cosmético para prevenir el deterioro y mejorar su presentación. Ejemplo: conservantes, colorantes, perfumes.',
     },
     {
       termino: 'Correctores de un producto cosmético',
@@ -150,14 +151,14 @@ export default {
   complementario: [
     {
       texto: 'Normas de seguridad',
-      tipo: 'Página web',
-      descarga:
+      tipo: 'Libro digital',
+      link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50239',
     },
     {
       texto: 'Manejo de productos y equipos cosméticos',
-      tipo: 'Página web',
-      descarga:
+      tipo: 'Libro digital',
+      link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/55473',
     },
   ],
