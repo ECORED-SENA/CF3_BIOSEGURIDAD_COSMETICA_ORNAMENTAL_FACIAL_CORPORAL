@@ -58,7 +58,7 @@
         LineaTiempoC.color-acento-contenido(text-small)
           .row.m-4(titulo="Ley 9 de 1979")
             .col-md-10.mb-4          
-              p.ps-5.flex-md-fill Esta ley expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulte este enlace: <a href="/downloads/LEY 0009 DE 1979.pdf">https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf</a>   
+              p.ps-5.flex-md-fill Esta ley expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulte este enlace: <a href="/downloads/Ley_0009_de_1979.pdf" target="_blank"> https://www.minsalud.gov.co/Normatividad_Nuevo/Ley_0009_de_1979.pdf</a>  
             .col-md-2
           .row.m-4(titulo="Resolución 2511 de 1995 (Ministerio de Salud)")
             .col-md-10.mb-4
@@ -102,7 +102,7 @@
       .col-lg-8
         p.mb-4.mt-3 Todas estas normas aportan lineamientos y recomendaciones a seguir desde las premisas universales de bioseguridad en el contexto de la cosmética ornamental, facial y corporal. Estas normativas dan la base necesaria para que el personal tome las medidas preventivas necesarias en la prestación de servicios ante la exposición a material biológico. 
         p.mb-4 Apreciado aprendiz, el Ministerio de Trabajo de Colombia ha desarrollado la 
-          span.fst-italic Guía para trabajadores expuestos a riesgos biológicos
+          span.fst-italic Guía para trabajadores expuestos a riesgos biológicos 
           span (2018), por lo que se le invita a identificar las herramientas y recomendaciones sugeridas en los entornos laborales que presentan alta exposición a riesgo biológico. 
         .tarjeta-color.bg03.border.border-light.rounded-3.p-3.mb-5(data-aos="fade-right") 
           .row.justify-content-around.align-items-center        
@@ -191,47 +191,49 @@
         figure.flex-center           
           img.img330(src='@/assets/curso/tema1/img31.svg')
   
-      p.my-5.pt-5 Así se da inicio a la caracterización de estos mecanismos de barreras contundentes, a partir de la comprensión del sistema de defensa innato y adquirido del ser humano, donde se hablará sobre la barrera de inmunización activa para lo cual lo invitamos a revisar con atención el siguiente recurso educativo.
-     
-      .row.justify-content-center(data-aos="fade-right")
-        .col-lg-10.mb-4
-          .tarjeta.bg02.p-2.mb-5
-            SlyderA 
-              .row.justify-content-center
-                .col-10
-                  figure.flex-center
-                    img.img163.mb-5(src='@/assets/curso/tema1/img16.svg')
-                  p Existen factores de riesgo cotidiano que bajan las defensas del cuerpo, como fumar, consumir sustancias psicoactivas, el licor, hábitos de vida sedentarios, mala alimentación o el estrés, por ello, se recomienda llevar hábitos de vida saludable. Cuando se tienen las defensas bajas, se está en riesgo constante de contraer una infección.
-              .row.justify-content-center.p-4
-                .col-10
-                  figure.flex-center
-                    img.img163.mb-5(src='@/assets/curso/tema1/img17.svg')
-                  p Por lo general, los microorganismos tienen acceso al cuerpo de una persona por medio de la respiración, las mucosas y la piel. El propio cuerpo está en la capacidad de detectar los microorganismos nocivos que reciben el nombre de antígenos. La barrera de defensa propia son los anticuerpos presentes en los órganos y células del cuerpo. 
-              .row.justify-content-center.p-4
-                .col-3.mb-4
-                  img(src='@/assets/curso/tema1/img18.svg')
-                .col-10.mb-4
-                  p Los órganos o tejidos que sirven como barreras de defensa para el cuerpo son: las amígdalas, la glándula timo, sistema linfático (ganglios), bazo y la médula ósea. A nivel celular, están los glóbulos blancos de la sangre, llamados linfocitos, estas células son las más importantes para la defensa del cuerpo, pues permiten comunicar y ayudar a alertar a las demás células del cuerpo sobre la presencia de un antígeno, lo que permite identificarlo y destruirlo para generar memoria o recordación de este por si ocurre otra posible infección con el mismo microorganismo o agente extraño.
-              .row.justify-content-center.p-4
-                .col-3.mb-4.px-3
-                  img(src='@/assets/curso/tema1/img19.svg')
-                .col-10.mb-4
-                  p El sistema innato es el sistema de defensa con el que todas las personas nacen. Se va desarrollando por medio del reconocimiento y la alerta de un antígeno para producir respuestas inmediatas de defensa, que transportan por el torrente sanguíneo los glóbulos blancos, productores de citoquinas, y permean los tejidos, generando la inmunoglobulina. 
-                  p Con este mecanismo, los linfocitos fagotizadores destruyen los objetos extraños; luego, el cuerpo limpia los residuos. En todo este proceso, se genera la infección, que es la reacción de la batalla entre esos antígenos y los anticuerpos por el bienestar del organismo. Después de todo esto, lo último que sucede es que se activa el <b>sistema de defensa adquirida,</b> que es cuando ya el cuerpo es capaz de reconocer el antígeno. 
-              .row.justify-content-center.p-4
-                .col-3.mb-4.px-3
-                  img(src='@/assets/curso/tema1/img20.svg')
-                .col-10.mb-4
-                  p Las vacunas, por ejemplo, copian este mismo sistema de defensa adquirida. Ellas se definen como un instrumento clave para combatir una enfermedad y surgen de las mismas bacterias, virus o microorganismos que son ajustados, manipulados y tratados en los laboratorios para que, al ingresar al cuerpo, se cree el sistema de defensa que ayudará a que el cuerpo reconozca qué patógenos ingresaron y los elimine. 
-                  p Ese mecanismo de defensa crea células de memoria, a las cuales se conoce como inmunidad, ya sea por medio del sistema de defensa innato o adquirido, se produce la inflamación de los tejidos, que se manifiesta con síntomas como la fiebre y el malestar general.
-              .row.justify-content-center.p-4
-                .col-10.mb-4.px-2
+      p.mt-2.pt-5 Así se da inicio a la caracterización de estos mecanismos de barreras contundentes, a partir de la comprensión del sistema de defensa innato y adquirido del ser humano, donde se hablará sobre la barrera de inmunización activa para lo cual lo invitamos a revisar con atención el siguiente recurso educativo.
+
+      .row.justify-content-center
+        .col-lg-10
+          SlyderA.bg03.mt-5(data-aos="fade-right")
+            .row.justify-content-center
+              .col-10
+                figure.flex-center
+                  img.mb-4(src='@/assets/curso/tema1/img16.svg' style= "width: 150px")
+                p Existen factores de riesgo cotidiano que bajan las defensas del cuerpo, como fumar, consumir sustancias psicoactivas, el licor, hábitos de vida sedentarios, mala alimentación o el estrés, por ello, se recomienda llevar hábitos de vida saludable. Cuando se tienen las defensas bajas, se está en riesgo constante de contraer una infección.
+            .row.justify-content-center.p-4
+              .col-10
+                figure.flex-center
+                  img.mb-4(src='@/assets/curso/tema1/img17.svg' style= "width: 200px")
+                p Por lo general, los microorganismos tienen acceso al cuerpo de una persona por medio de la respiración, las mucosas y la piel. El propio cuerpo está en la capacidad de detectar los microorganismos nocivos que reciben el nombre de antígenos. La barrera de defensa propia son los anticuerpos presentes en los órganos y células del cuerpo. 
+            .row.justify-content-center.p-4
+              .col-3.mb-4
+                figure.flex-center
+                  img.mb-2(src='@/assets/curso/tema1/img18.svg' style= "width: 220px")
+              .col-10.mb-4
+                p Los órganos o tejidos que sirven como barreras de defensa para el cuerpo son: las amígdalas, la glándula timo, sistema linfático (ganglios), bazo y la médula ósea. A nivel celular, están los glóbulos blancos de la sangre, llamados linfocitos, estas células son las más importantes para la defensa del cuerpo, pues permiten comunicar y ayudar a alertar a las demás células del cuerpo sobre la presencia de un antígeno, lo que permite identificarlo y destruirlo para generar memoria o recordación de este por si ocurre otra posible infección con el mismo microorganismo o agente extraño.
+            .row.justify-content-center.p-4
+              .col-3.mb-4.px-3
+                figure.flex-center
+                  img(src='@/assets/curso/tema1/img19.svg' style= "width: 140px")
+              .col-10.mb-4
+                p El sistema innato es el sistema de defensa con el que todas las personas nacen. Se va desarrollando por medio del reconocimiento y la alerta de un antígeno para producir respuestas inmediatas de defensa, que transportan por el torrente sanguíneo los glóbulos blancos, productores de citoquinas, y permean los tejidos, generando la inmunoglobulina. 
+                p.mb-4 Con este mecanismo, los linfocitos fagotizadores destruyen los objetos extraños; luego, el cuerpo limpia los residuos. En todo este proceso, se genera la infección, que es la reacción de la batalla entre esos antígenos y los anticuerpos por el bienestar del organismo. Después de todo esto, lo último que sucede es que se activa el <b>sistema de defensa adquirida,</b> que es cuando ya el cuerpo es capaz de reconocer el antígeno. 
+            .row.justify-content-center.p-4
+              .col-3.mb-4.px-3
+                figure.flex-center
+                  img(src='@/assets/curso/tema1/img20.svg' style= "width: 140px")
+              .col-10.mb-4
+                p Las vacunas, por ejemplo, copian este mismo sistema de defensa adquirida. Ellas se definen como un instrumento clave para combatir una enfermedad y surgen de las mismas bacterias, virus o microorganismos que son ajustados, manipulados y tratados en los laboratorios para que, al ingresar al cuerpo, se cree el sistema de defensa que ayudará a que el cuerpo reconozca qué patógenos ingresaron y los elimine. 
+                p Ese mecanismo de defensa crea células de memoria, a las cuales se conoce como inmunidad, ya sea por medio del sistema de defensa innato o adquirido, se produce la inflamación de los tejidos, que se manifiesta con síntomas como la fiebre y el malestar general.
+            .row.justify-content-center.p-4
+              .col-10.mb-4.px-2
+                figure.flex-center
                   img(src='@/assets/curso/tema1/img21.svg')
-                .col-10.mb-4
-                  p La mayoría de las veces, el operario funerario no tiene conocimiento si el cuerpo con el que está trabajando presenta alguna enfermedad infectocontagiosa, por tal motivo, se tiene siempre que trabajar bajo premisas universales de autocuidado y protección personal.
-                  p Al personal operativo que está en contacto o en exposición con los fallecidos se le recomienda tener al día y actualizado el siguiente esquema de vacunación y periódicamente estar revisando los niveles de anticuerpos. 
-        .col-lg-12.mb-4
-          p Comprendidos los sistemas defensa innato y adquirido del ser humano, se entran a caracterizar los agentes biológicos, químicos y cosméticos que pueden estar presente en las actividades laborales, y que son:
+                p.mt-4 La mayoría de las veces, el operario funerario no tiene conocimiento si el cuerpo con el que está trabajando presenta alguna enfermedad infectocontagiosa, por tal motivo, se tiene siempre que trabajar bajo premisas universales de autocuidado y protección personal.
+                p Al personal operativo que está en contacto o en exposición con los fallecidos se le recomienda tener al día y actualizado el siguiente esquema de vacunación y periódicamente estar revisando los niveles de anticuerpos. 
+          
+      p.pt-3.mt-5.mb-5 Comprendidos los sistemas defensa innato y adquirido del ser humano, se entran a caracterizar los agentes biológicos, químicos y cosméticos que pueden estar presente en las actividades laborales, y que son:
 
     
       .row.justify-content-center.align-content-center.mb-5
@@ -311,36 +313,17 @@
       span.etiqueta <b>Identificados los aspectos relacionados con los riesgos químicos y otros, en Colombia los productos deben tener un registro sanitario,</b>
       span el cual certifica la libre circulación en el mercado. Los productos que requieren un registro sanitario, porque tienen un alto impacto en las condiciones de salud pública. Este certificado es emitido por la entidad competente, en el caso del Estado Colombiano, el Invima (Instituto Nacional de Vigilancia de Medicamentos y Alimentos).
 
-      .row.mb-5
+      .row.mt-2
         .col-lg-3(data-aos="fade-right")
           figure.mb-4 
             img(src='@/assets/curso/tema1/img25.svg') 
         .col-lg-9(data-aos="fade-left") 
-          p Sumado a lo anterior, en los establecimientos de cosmética ornamental, facial y corporal se debe tener un manual de bioseguridad para orientar el correcto manejo de insumos, elementos y normas de precaución que conlleven a la prevención y la ocurrencia de hechos que pongan en riesgo la salud del personal que realiza el proceso de atención como para los usuarios. Estas medidas se adoptan a partir de la Resolución 2827 de 2006 que orienta los procesos clave que deben ser tenidos en cuenta para la construcción del manual de bioseguridad. 
+          p.mt-3 Sumado a lo anterior, en los establecimientos de cosmética ornamental, facial y corporal se debe tener un manual de bioseguridad para orientar el correcto manejo de insumos, elementos y normas de precaución que conlleven a la prevención y la ocurrencia de hechos que pongan en riesgo la salud del personal que realiza el proceso de atención como para los usuarios. Estas medidas se adoptan a partir de la Resolución 2827 de 2006 que orienta los procesos clave que deben ser tenidos en cuenta para la construcción del manual de bioseguridad. 
 
-        ImagenInfografica.color-secundario.mb-5.d-none.d-lg-block(data-aos="fade-right") 
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema1/img28.svg')
+      figure.mb-4 
+        img(src='@/assets/curso/tema1/img28.svg') 
 
-          .tarjeta.color-acento-botones.p-3(x="38.5%" y="22.5%")
-            p <a href="https://www.flaticon.es/icono-premium/cambio-de-imagen_1005786?term=estetica&page=1&position=17&page=1&position=17&related_id=1005786&origin=search"> https://www.flaticon.es/icono-premium/cambio-de-imagen_1005786?term=estetica&page=1&position=17&page=1&position=17&related_id=1005786&origin=search" </a>
-          .tarjeta.color-acento-botones.p-3(x="68%" y="22.5%")
-            p <a href="https://www.flaticon.es/icono-gratis/dosier_533972?term=documento&page=1&position=62&page=1&position=62&related_id=533972&origin=search"> https://www.flaticon.es/icono-gratis/dosier_533972?term=documento&page=1&position=62&page=1&position=62&related_id=533972&origin=search" </a>
-          .tarjeta.color-acento-botones.p-3(x="38.5%" y="40%")
-            p <a href="https://www.flaticon.es/icono-premium/cambio-de-imagen_1005786?term=estetica&page=1&position=17&page=1&position=17&related_id=1005786&origin=search"> https://www.flaticon.es/icono-premium/cambio-de-imagen_1005786?term=estetica&page=1&position=17&page=1&position=17&related_id=1005786&origin=search" </a>
-          .tarjeta.color-acento-botones.p-3(x="68%" y="40%")
-            p <a href="https://www.flaticon.es/icono-premium/residuos-biomedicos_3906680?term=riesgo%20biol%C3%B3gico&related_id=3906680"> https://www.flaticon.es/icono-premium/residuos-biomedicos_3906680?term=riesgo%20biol%C3%B3gico&related_id=3906680" </a>
-          .tarjeta.color-acento-botones.p-3(x="38.5%" y="59%")
-            p <a href="https://www.flaticon.es/icono-premium/precaucion_900465?term=precaucion&page=1&position=24&page=1&position=24&related_id=900465&origin=search"> https://www.flaticon.es/icono-premium/precaucion_900465?term=precaucion&page=1&position=24&page=1&position=24&related_id=900465&origin=search" </a>
-          .tarjeta.color-acento-botones.p-3(x="68%" y="59%")
-            p <a href="https://www.flaticon.es/icono-gratis/precaucion_1060397?term=precaucion&page=1&position=45&page=1&position=45&related_id=1060397"> https://www.flaticon.es/icono-gratis/precaucion_1060397?term=precaucion&page=1&position=45&page=1&position=45&related_id=1060397" </a>
-          .tarjeta.color-acento-botones.p-3(x="38.5%" y="79%")
-            p <a href="https://www.flaticon.es/icono-gratis/primeros-auxilios_4599634?term=primeros%20auxilios&page=1&position=1&page=1&position=1&related_id=4599634&origin=search"> https://www.flaticon.es/icono-gratis/primeros-auxilios_4599634?term=primeros%20auxilios&page=1&position=1&page=1&position=1&related_id=4599634&origin=search" </a>
-          .tarjeta.color-acento-botones.p-3(x="68%" y="79%")
-            p <a href="https://medioambiente.uexternado.edu.co/codigo-de-colores-para-la-separacion-de-residuos-solidos-en-el-pais-posibles-inquietudes-sobre-la-medida/"> https://medioambiente.uexternado.edu.co/codigo-de-colores-para-la-separacion-de-residuos-solidos-en-el-pais-posibles-inquietudes-sobre-la-medida/" </a> 
-
-      .row.justify-content-center(data-aos="zoom-in-up")
+      .row.justify-content-center(data-aos="zoom-in-down")
         .col-lg-10
           .tarjeta.color.color.bg03.p-3.mb-5
             .row.justify-content-around.align-items-center

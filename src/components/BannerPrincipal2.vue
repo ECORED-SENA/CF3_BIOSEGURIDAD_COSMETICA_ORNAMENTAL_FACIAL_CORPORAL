@@ -17,9 +17,9 @@
 
       .d-none.d-lg-block.col-lg-5.px-5.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
-    //-.imagen_flotante_1: img(src="@/assets/curso/portada/float1.png")
-    //-.imagen_flotante_2: img(src="@/assets/curso/portada/float2.png")
-    //-.imagen_flotante_3: img(src="@/assets/curso/portada/float3.png")
+      .imagen_flotante_1: img(src="@/assets/curso/portada/float1.png")
+      .imagen_flotante_2: img(src="@/assets/curso/portada/float2.png")
+      .imagen_flotante_3: img(src="@/assets/curso/portada/float3.png")
     //-.imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/portada/float3.png")
     //-.imagen_flotante_7: img(src="@/assets/curso/portada/float2.png")
     //-.imagen_flotante_8: img(src="@/assets/curso/portada/float1.png")
@@ -118,21 +118,21 @@ export default {
   &_1
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 70px
-    bottom: 80px
-    left: -3%
+    width: 45px
+    top: 40px
+    left: 3.1%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 70px
-    top: 30px
-    left: -2%
+    width: 48px
+    top: 80px
+    left: 1%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 90px
+    width: 70px
     bottom: 30px
-    left: 60%
+    left: 1%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute

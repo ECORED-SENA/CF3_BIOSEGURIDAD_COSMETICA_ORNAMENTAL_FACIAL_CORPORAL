@@ -10,100 +10,100 @@
     .row.mb-5.justify-content-center(data-aos="fade-right") 
       .col-lg-12
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
+          .bloque-texto-g__img.imgbn2(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.svg')})`}"
           )
           .bloque-texto-g__texto.p-5
             p.mb-0 De la mano de la prevención y bioseguridad en el contexto de la cosmética ornamental, facial y corporal, está el reconocimiento por parte de los funcionarios de las características y uso de los productos y equipos cosméticos. Antes de reconocer algunos aspectos, es importante comprender que un producto cosmético es un elemento que parte de una fórmula para su aplicación en zonas superficiales del cuerpo humano. Sus principales funciones son limpiar, proteger, perfumar y transformar el aspecto del cuerpo.                
-    
+
     p.pb-5 Algunos elementos de producto cosmético son: 
 
     .BGIMG02
-      .row.justify-content-center.mb-5.mt-5
+      .row.justify-content-center.align-items-center.mb-5
         .col-md-6.col-lg-4.mb-5.mb-lg-0.align.self-center(data-aos="fade-right") 
           .tarjeta-avatar.pb-4.a_tarjeta.me-2
-            img.pb-5(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
+            img.pb-5(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop' style= "opacity: 0.9")
             .tarjeta.color.bg01.border.border-info
               .p-4
                 h3.pt-2.text-center Elementos internos
-                p.m-4.pb-4 Se caracterizan por aquellos componentes que están en el cosmético. Este desempeñará la función específica para lo cual fue fabricado.
+                p.m-4.pb-1 Se caracterizan por aquellos componentes que están en el cosmético. Este desempeñará la función específica para lo cual fue fabricado.
         .col-md-6.col-lg-4.mb-5.mb-lg-0.align.self-center(data-aos="fade-left") 
           .tarjeta-avatar.pb-4.a_tarjeta.ms-1
-            img.pb-5(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
+            img.pb-5(src='@/assets/curso/tema2/img04.png' alt='AvatarTop' style= "opacity: 0.9")
             .tarjeta.color.bg01.border.border-info
               .p-4
                 h3.pt-2.text-center Elementos externos
-                p.mt-4.mx-3.pb-4 Corresponde a los elementos adicionales como el envase, cartón, empaque, etiquetado, prospecto y medios de difusión.
+                p.mt-4.mx-3.pb-2 Corresponde a los elementos adicionales como el envase, cartón, empaque, etiquetado, prospecto y medios de difusión.
         
         .row.justify-content-center.align-items-center
           .col-lg-4.mb-4.align.self-center(data-aos="fade-right") 
-            p.text-end La clasificación de los cosméticos se puede realizar en el marco de tres variables:
-          .col-lg-4.mb-5.align-self-center(data-aos="fade-left") 
-            .tarjeta.bg06.p-4.me-5 
-              ol.lista-ol
+            p.text-end.pb-4 <b>La clasificación de los cosméticos se puede realizar en el marco de tres variables:</b>
+          .col-lg-3.mb-5.pe-5.align-self-center(data-aos="fade-left") 
+            .tarjeta.bg06.p-4.m-4.mt-0 
+              ol.lista-ol.mb-0
                 li 
                   .lista-ol.BGIMG04
-                    span.ps-2 1                
-                  p.ps-3.pb-0.mb-0 Función.
+                    span.ps-2.me-2 1                
+                  p.ps-2.pb-0.mb-0 Función.
                 li 
                   .lista-ol.BGIMG04
-                    span.ps-2 2
-                  p.ps-3.pb-0.mb-0 Nivel de uso.
+                    span.ps-2.me-2 2
+                  p.ps-2.pb-0.mb-0 Nivel de uso.
                 li 
                   .lista-ol.BGIMG04
-                    span.ps-2 3
-                  p.ps-3.pb-0.mb-0 Zona de acción.
+                    span.ps-2.me-2 3
+                  p.ps-2.pb-0.mb-0 Zona de acción.
 
           p.m-4.text-center Para una mayor claridad al respecto, se describirán cada uno de ellos.  
 
-      TabsB.color-acento-contenido.px-5
-        .py-4.py-md-5(titulo="Cosméticos acordes a su función" :icono="require('@/assets/curso/tema2/img05.svg')") 
-          .row.p-4
-            .col-8
-            p.mb-4 En esta categoría existen productos para la higiene, acondicionamiento, decoración, tratamiento y protección del cuerpo. 
-            p Con respecto a la higiene, acondicionamiento, decoración, tratamiento y protección deben realizar una función según una intención técnica, condiciones de bioseguridad e intereses de los clientes. 
-        .py-4.py-md-5(titulo="Cosméticos según su nivel de uso" :icono="require('@/assets/curso/tema2/img06.svg')")
-          .row.p-4
-            .col-8
-            p Los productos pueden ser distinguidos según el contexto de uso, así existen productos para casa cuyo objetivo es realizar higiene, mantenimiento o protección del cuerpo. Mientras que existen otros de tipo profesional elementos utilizados para los procedimientos de tipo capilar, permanentes, colorantes permanentes, entre otros. Dentro de estos, también se puede realizar una lista que los divida en campos profesionales, hablando así de:
-            ul.lista-ul
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Cosméticos para el área ornamental. 
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Cosméticos para la cosmética facial y corporal.
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Cosméticos acorde al área donde se utilice. 
-        .py-4.py-md-5(titulo="Cosméticos según su zona de acción" :icono="require('@/assets/curso/tema2/img07.svg')")
-          .row.p-4
-            .col-8
-            p La acción de los productos de tipo cosméticos es de carácter superficial y los elementos que la componen no están diseñados para que penetren de manera profunda y lleguen a tener acción sistémica; un cosmético nunca debe producir efectos que vayan más allá de lo permitido. En este caso, se cuenta con las siguientes opciones de cosméticos:
-            ul.lista-ul
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Para la zona superficial de la piel (cremas, protector solar. exfoliante). 
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Para la piel de la cara. 
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Para la piel de todo el cuerpo.
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Para la cabellera.
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Para las uñas.  
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Para glándulas de tipo sebáceo.
-              li 
-                <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                | Para glándulas de tipo sudoríparas. 
-    <br><br/>
-    .row.justify-content-center.align-items-center
+        TabsB.color-acento-contenido.px-5
+          .py-4.py-md-5(titulo="Cosméticos acordes a su función" :icono="require('@/assets/curso/tema2/img05.svg')") 
+            .row.p-4
+              .col-8
+              p.mb-4 En esta categoría existen productos para la higiene, acondicionamiento, decoración, tratamiento y protección del cuerpo. 
+              p.mb-5.mb-lg-0 Con respecto a la higiene, acondicionamiento, decoración, tratamiento y protección deben realizar una función según una intención técnica, condiciones de bioseguridad e intereses de los clientes. 
+          .py-4.py-md-5(titulo="Cosméticos según su nivel de uso" :icono="require('@/assets/curso/tema2/img06.svg')")
+            .row.p-4
+              .col-8
+              p Los productos pueden ser distinguidos según el contexto de uso, así existen productos para casa cuyo objetivo es realizar higiene, mantenimiento o protección del cuerpo. Mientras que existen otros de tipo profesional elementos utilizados para los procedimientos de tipo capilar, permanentes, colorantes permanentes, entre otros. Dentro de estos, también se puede realizar una lista que los divida en campos profesionales, hablando así de:
+              ul.lista-ul
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Cosméticos para el área ornamental. 
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Cosméticos para la cosmética facial y corporal.
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Cosméticos acorde al área donde se utilice. 
+          .py-4.py-md-5(titulo="Cosméticos según su zona de acción" :icono="require('@/assets/curso/tema2/img07.svg')")
+            .row.p-4
+              .col-8
+              p La acción de los productos de tipo cosméticos es de carácter superficial y los elementos que la componen no están diseñados para que penetren de manera profunda y lleguen a tener acción sistémica; un cosmético nunca debe producir efectos que vayan más allá de lo permitido. En este caso, se cuenta con las siguientes opciones de cosméticos:
+              ul.lista-ul
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Para la zona superficial de la piel (cremas, protector solar. exfoliante). 
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Para la piel de la cara. 
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Para la piel de todo el cuerpo.
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Para la cabellera.
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Para las uñas.  
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Para glándulas de tipo sebáceo.
+                li 
+                  <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
+                  | Para glándulas de tipo sudoríparas. 
+    
+    .row.justify-content-center.align-items-center.mt-5.mt-lg-0.pt-5
       .col-lg-6.align-self-center(data-aos="fade-right") 
         .contenedor.contenedor--texto-right
           p.mb-4.mt-5 <b>Se debe recordar que los productos a utilizar deben tener una ficha técnica</b> para que las autoridades de vigilancia y control puedan acceder a la información completa del mismo en el marco de los elementos que la componen: el proceso de fabricación, los efectos no esperados, el nombre y dirección de la persona o entidad responsable. Los profesionales de la estética facial, corporal y ornamental deben entregar todas las indicaciones para tratar los posibles efectos no esperados que pueda causar el producto cosmético.

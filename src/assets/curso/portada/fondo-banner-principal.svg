@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1320" height="507" viewBox="0 0 1320 507">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1320.001" height="507" viewBox="0 0 1320.001 507">
   <defs>
     <linearGradient id="linear-gradient" x1="0.586" y1="0.42" x2="0.033" y2="0.048" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fde9e0" stop-opacity="0"/>
@@ -9,17 +9,12 @@
       <stop offset="1" stop-color="#f18385"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_146154" data-name="Grupo 146154" transform="translate(-140.333 -70)">
-    <g id="Grupo_145543" data-name="Grupo 145543">
-      <g id="Grupo_145426" data-name="Grupo 145426">
-        <rect id="Rectángulo_44244" data-name="Rectángulo 44244" width="1320" height="507" rx="20" transform="translate(140.333 70)" fill="#fde9e0"/>
-        <rect id="Rectángulo_44258" data-name="Rectángulo 44258" width="550" height="507" rx="20" transform="translate(140.333 70)" fill="url(#linear-gradient)"/>
-        <rect id="Rectángulo_44259" data-name="Rectángulo 44259" width="472.646" height="376.15" rx="20" transform="translate(1460.333 577) rotate(180)" fill="url(#linear-gradient-2)"/>
-      </g>
-      <path id="Intersección_2" data-name="Intersección 2" d="M45,796.616V623.695c51.537-27.74,155.279-47.625,358.892,10.634,188.2,53.847,290.369,18.676,377.438-16.5,77.75-31.407,143.459-62.816,247.633-30.834,220.831,67.795,108.584,147.855,319.043,68.762q8.69-3.266,16.995-5.9v146.76Z" transform="translate(95.333 -220.616)" fill="rgba(255,255,255,0.44)"/>
-      <path id="Polígono_5" data-name="Polígono 5" d="M11.5,0,23,20H0Z" transform="translate(213.833 126.5) rotate(90)" fill="#483c8c"/>
-      <path id="Polígono_6" data-name="Polígono 6" d="M11.5,0,23,20H0Z" transform="translate(189.833 183) rotate(180)" fill="#f18385"/>
-      <path id="Polígono_7" data-name="Polígono 7" d="M21.911,0,43.821,38.105H0Z" transform="translate(210.654 541.022) rotate(180)" fill="#f18385"/>
+  <g id="Grupo_146152" data-name="Grupo 146152" transform="translate(17091.512 11630)">
+    <g id="Grupo_146151" data-name="Grupo 146151" transform="translate(-17231.844 -11700)">
+      <rect id="Rectángulo_44244" data-name="Rectángulo 44244" width="1320" height="507" rx="20" transform="translate(140.333 70)" fill="#fde9e0"/>
+      <rect id="Rectángulo_44258" data-name="Rectángulo 44258" width="550" height="507" rx="20" transform="translate(140.333 70)" fill="url(#linear-gradient)"/>
+      <rect id="Rectángulo_44259" data-name="Rectángulo 44259" width="472.646" height="376.15" rx="20" transform="translate(1460.333 577) rotate(180)" fill="url(#linear-gradient-2)"/>
     </g>
+    <path id="Intersección_8" data-name="Intersección 8" d="M45,796.616V623.695c51.537-27.74,155.279-47.625,358.892,10.634,188.2,53.847,290.369,18.676,377.438-16.5,77.75-31.407,143.459-62.816,247.633-30.834,220.831,67.795,108.584,147.855,319.043,68.762q8.69-3.266,16.995-5.9v146.76Z" transform="translate(-17136.512 -11920.616)" fill="rgba(255,255,255,0.44)"/>
   </g>
 </svg>
