@@ -55,7 +55,7 @@
         .col-12.col-lg-11.pe-5.align-self-center.martop(data-aos="zoom-in-up")
           h4.pt-5.pb-4 En Colombia rigen actualmente varias normas sobre bioseguridad, vigilancia del uso de productos cosméticos y cuidado en el trabajo, entre la cuales se encuentran: 
       .tarjeta-color.color.bg03.p-4.ps-0.mb-2.pbotton(data-aos="zoom-in-up")
-        LineaTiempoC.color-acento-contenido(text-small)
+        LineaTiempoC.color-acento-contenido.ps-5.pe-4(text-small)
           .row.m-4(titulo="Ley 9 de 1979")
             .col-md-10.mb-4          
               p.ps-5.flex-md-fill Esta ley expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulte este enlace: <a href="/downloads/Ley_0009_de_1979.pdf" target="_blank"> https://www.minsalud.gov.co/Normatividad_Nuevo/Ley_0009_de_1979.pdf</a>  
@@ -66,7 +66,7 @@
             .col-md-2
           .row.m-4(titulo="Decreto 219 de 1998 (Ministerio de Salud)")
             .col-md-10.mb-4.flex-fill
-              p.p-4 Se logra reglamentar de manera parcial el régimen sanitario respecto al control de la calidad y vigilancia en el marco de los productos de tipo cosmético. 
+              p.ps-5 Se logra reglamentar de manera parcial el régimen sanitario respecto al control de la calidad y vigilancia en el marco de los productos de tipo cosmético. 
             .col-md-2 
           .row.m-4(titulo="Resolución 2800 de 1998 (Ministerio de Salud)")
             .col-md-10.mb-4

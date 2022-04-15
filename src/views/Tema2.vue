@@ -39,7 +39,7 @@
           .col-lg-4.mb-4.align.self-center(data-aos="fade-right") 
             p.text-end.pb-4 <b>La clasificación de los cosméticos se puede realizar en el marco de tres variables:</b>
           .col-lg-3.mb-5.pe-5.align-self-center(data-aos="fade-left") 
-            .tarjeta.bg06.p-4.m-4.mt-0 
+            .tarjeta.bg10.p-4.m-4.mt-0 
               ol.lista-ol.mb-0
                 li 
                   .lista-ol.BGIMG04
