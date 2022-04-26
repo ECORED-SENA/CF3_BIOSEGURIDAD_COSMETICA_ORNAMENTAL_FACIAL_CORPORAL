@@ -58,7 +58,7 @@
         LineaTiempoC.color-acento-contenido.ps-5.pe-4(text-small)
           .row.m-4(titulo="Ley 9 de 1979")
             .col-md-10.mb-4          
-              p.ps-5.flex-md-fill Esta ley expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulte este enlace: <a href="/downloads/Ley_0009_de_1979.pdf" target="_blank"> https://www.minsalud.gov.co/Normatividad_Nuevo/Ley_0009_de_1979.pdf</a>  
+              p.ps-5.flex-md-fill Esta ley expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulte este enlace: <a href="downloads/Ley_0009_de_1979.pdf" target="_blank"> https://www.minsalud.gov.co/Normatividad_Nuevo/Ley_0009_de_1979.pdf</a>  
             .col-md-2
           .row.m-4(titulo="Resolución 2511 de 1995 (Ministerio de Salud)")
             .col-md-10.mb-4
