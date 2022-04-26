@@ -38,7 +38,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -77,14 +77,14 @@ export default {
   referencias: [
     {
       referencia:
-        'Comunidad Andina de Naciones. (2002). Decisión 516 de 2002. Armonización de legislaciones en materia de productos cosméticos.',
-      link: 'https://www.invima.gov.co/documents/20143/449018/DECISION+516.pdf',
+        'Decisión 516. Armonización de legislaciones en materia de productos cosméticos.',
+      link: 'http://www.sice.oas.org/trade/junac/decisiones/dec516s.asp',
     },
     {
       referencia:
         'Coton, V., M. C. (3 de 2015). Riesgo químico en peluquería. Libraria Xunta.',
       link:
-        'https://libraria.xunta.gal/sites/default/files/downloads/publicacion/15-00149_- _riesgo_quimico_en_peluquerias._os_conece_do_issga.servizos.pdf',
+        'https://libraria.xunta.gal/sites/default/files/downloads/publicacion/15-00149_-_riesgo_quimico_en_peluquerias._os_conece_do_issga._servizos.pdf',
     },
     {
       referencia:
@@ -175,43 +175,43 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Adriana Maria Bustamante Cataño',
         cargo: 'Profesional de diseño y producción curricular',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Servicios de Salud Regional - Antioquia',
       },
       {
         nombre: 'Jhacesiz Mary Hincapié Atehortúa',
         cargo:
           'Instructora (EPC) – Líder desarrollo curricular Servicios Personales',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Servicios de Salud Regional - Antioquia',
       },
       {
         nombre: 'Luz Adriana Cárdenas González',
         cargo: 'Experta temática red salud y servicios personales.',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Servicios de Salud Regional - Antioquia',
       },
       {
         nombre: 'Cristina Marcela Gallego Arango',
         cargo: 'Instructora área de servicios personales.',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Servicios de Salud Regional - Antioquia',
       },
       {
         nombre: 'Cristian Metaute Medina',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Servicios de Salud Regional - Antioquia',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Metodóloga para la formación virtual',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Servicios de Salud Regional - Antioquia',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
         cargo: 'Corrector de estilo',
-        centro: 'Centro de Servicios de Salud Regional Antioquia',
+        centro: 'Centro de Servicios de Salud Regional - Antioquia',
       },
     ],
     desarrolloProducto: [
@@ -219,54 +219,67 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: '',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Carlos Julian Ramirez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Mayerly Pérez Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Validación  audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Marcia Elizabeth Solano Alvarez',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Yuli Marcela Gómez Tarazona ',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
     ],
   },

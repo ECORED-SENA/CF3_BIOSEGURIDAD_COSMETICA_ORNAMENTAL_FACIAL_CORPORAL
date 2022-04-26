@@ -36,10 +36,10 @@
                 p.mt-4.mx-3.pb-2 Corresponde a los elementos adicionales como el envase, cartón, empaque, etiquetado, prospecto y medios de difusión.
         
         .row.justify-content-center.align-items-center
-          .col-lg-4.mb-4.align.self-center(data-aos="fade-right") 
+          .col-md-6.col-lg-4.mb-5.align.self-center(data-aos="fade-right") 
             p.text-end.pb-4 <b>La clasificación de los cosméticos se puede realizar en el marco de tres variables:</b>
-          .col-lg-3.mb-5.pe-5.align-self-center(data-aos="fade-left") 
-            .tarjeta.bg10.p-4.m-4.mt-0 
+          .col-md-6.col-lg-4.mb-5.pe-5(data-aos="fade-left") 
+            .tarjeta.bg10.p-4 
               ol.lista-ol.mb-0
                 li 
                   .lista-ol.BGIMG04

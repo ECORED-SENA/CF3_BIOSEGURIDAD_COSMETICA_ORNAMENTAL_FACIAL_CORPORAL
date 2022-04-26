@@ -58,7 +58,7 @@
         LineaTiempoC.color-acento-contenido.ps-5.pe-4(text-small)
           .row.m-4(titulo="Ley 9 de 1979")
             .col-md-10.mb-4          
-              p.ps-5.flex-md-fill Esta ley expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulte este enlace: <a href="downloads/Ley_0009_de_1979.pdf" target="_blank"> https://www.minsalud.gov.co/Normatividad_Nuevo/Ley_0009_de_1979.pdf</a>  
+              p.ps-5.flex-md-fill Esta ley expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulte este enlace: <a href="downloads/Ley_0009_de_1979.pdf" target="_blank"> https://www.minsalud.gov.co/Normatividad_Nuevo/Ley_0009_de_1979.pdf</a> 
             .col-md-2
           .row.m-4(titulo="Resolución 2511 de 1995 (Ministerio de Salud)")
             .col-md-10.mb-4
@@ -330,7 +330,7 @@
               .col-8
                 <h5 style="color:#483C8C !important; font-weight: bold;"> Para más información le invitamos a consultar la Resolución 2827 de 2006 por la cual se adopta el manual de bioseguridad para establecimientos que desarrollen actividades cosméticas o con fines de embellecimiento facial, capilar, corporal y ornamental. </h5>
               .col-3.col-md-2.mb-3.mb-sm-0
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Resolucion_2827_de_2006.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 
