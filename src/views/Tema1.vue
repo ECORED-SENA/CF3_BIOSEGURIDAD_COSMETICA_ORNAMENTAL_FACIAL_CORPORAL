@@ -9,14 +9,13 @@
 
     p.mb-5 Estas se definen como aquellos lineamientos y procedimientos que se deben cumplir a cabalidad para tener una adecuada protección de todas las personas que se encuentren expuestas a un contacto directo o indirecto, temporal o permanente, con agentes de tipo biológico, físico o de tipo químico. 
     
-    .row.cajon.color-primario.p-4.ps-0.mb-4.m-1.justify-content-center.align-items-center(data-aos="zoom-in-up")
-      .col-md-8.col.lg-9
-        p.py-3.ps-0 El objetivo de la bioseguridad es servir como punto de contención de las posibles enfermedades que pudiesen salir de la manipulación de cualquier elemento biológico y así evitar, al máximo, accidentes de orden laboral que afecten la salud de los trabajadores o de las demás personas. 
+    .row.cajon.color-primario.p-4.ps-0.mb-4.m-1(data-aos="zoom-in-up")
+      .col-12.col-md-8.col.lg-9
+        p.m-0.p-3.p-md-4 El objetivo de la bioseguridad es servir como punto de contención de las posibles enfermedades que pudiesen salir de la manipulación de cualquier elemento biológico y así evitar, al máximo, accidentes de orden laboral que afecten la salud de los trabajadores o de las demás personas. 
       .col-12.col-md-4.col-lg-3
         figure.position02
-          img.img01.d-none.d-lg-block(src="@/assets/curso/tema1/img01.svg")
+          img.img01.d-none.d-md-flex(src="@/assets/curso/tema1/img01.svg")
   
-    <br><br/>   
     .bloque-texto-g.color-acento-botones.bloque_1.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img02.svg')})`}"
@@ -24,27 +23,30 @@
       .bloque-texto-g__texto.p-5(data-aos="fade-left")
         p.mb-0 <b>En el contexto de la cosmética ornamental, facial y corporal</b> los accidentes más comunes se deben a cortaduras con algún elemento punzocortante que están dentro de las herramientas y equipos de un servicio estético; pero también los riesgos biológicos a los que está sometido un cosmetólogo son aquellos que pueden ingresar de manera dérmica, sanguínea, respiratoria o digestiva, pudiendo desencadenar enfermedades infectocontagiosas, intoxicaciones o alergias.
 
-    p.mb-5 En la bioseguridad se considera que existe un riesgo biológico cuando las personas están propensas a la exposición con agentes patógenos, y para minimizar el riesgo existe un principio universal que protege y salvaguarda la integridad del personal que trabaja en el área de la salud y que por obvias razones se extiende al sector de la estética. Este principio básicamente es para prevenir de manera significativa que ocurra una transmisión o propagación de alguna enfermedad. La norma universal de precaución consiste en:
+    p En la bioseguridad se considera que existe un riesgo biológico cuando las personas están propensas a la exposición con agentes patógenos, y para minimizar el riesgo existe un principio universal que protege y salvaguarda la integridad del personal que trabaja en el área de la salud y que por obvias razones se extiende al sector de la estética. Este principio básicamente es para prevenir de manera significativa que ocurra una transmisión o propagación de alguna enfermedad. La norma universal de precaución consiste en:
             
     <br><br/>
-    .row.justify-content-center.align-items-center.mb-5.bg-header
-      .col-11.col-md-7.col-lg-7.align-self-end(data-aos="fade-right")
-        h2.ms-5 Un trabajador de la salud o afines debe suponer que cualquier actividad que desarrolle es potencialmente infecciosa.  
-      .col-11.col-md-4.col-lg-4
-        figure.align-self-start.img-especial(data-aos="fade-left")
-            img.img300.pe-5.img-fluid(src="@/assets/curso/tema1/img04.png")
-      .row
-        .col-lg-11
-          p.p-5.ms-5.pe-0.pb-2 Esta premisa de bioseguridad universal permite que el operario realice las funciones con todos los cuidados necesarios, sin importar si se conoce o no el diagnóstico patológico o la historia clínica de los clientes. El propósito esencial de esta precaución universal es protegerse y proteger a las personas que lo rodean.  
-        .col-lg-1
+    .bg_grad-01.mb-5
+      .row.justify-content-center.align-items-center.mb-md-5
+        .col-12.col-md-6.align-self-end.mb-3.mb-md-0.p-5.p-md-0(data-aos="fade-right")
+          h2.m-0 Un trabajador de la salud o afines debe suponer que cualquier actividad que desarrolle es potencialmente infecciosa.  
+        .col-12.col-md-4
+          figure.justify-center(data-aos="fade-left")
+            img.img250(src="@/assets/curso/tema1/img04.png")
+      
+      .row.justify-content-center.mb-5
+        .col-12.col-md-10.p-5.p-md-0
+          p.m-0 Esta premisa de bioseguridad universal permite que el operario realice las funciones con todos los cuidados necesarios, sin importar si se conoce o no el diagnóstico patológico o la historia clínica de los clientes. El propósito esencial de esta precaución universal es protegerse y proteger a las personas que lo rodean. 
+
       .row.justify-content-center
-        .col-lg-4
-          figure.p-4(data-aos="fade-right")
-            img.img250.ms-5.ps-4(src="@/assets/curso/tema1/img06.png")
-        .col-lg-6.me-0(data-aos="fade-left")
-          span.mb-4.ps-0.etiqueta Para cumplir con esta medida, es necesario que siempre se usen los elementos de barrera que estén a la disposición y al alcance de todo el personal,
-          span sobre todo en las áreas en que se trabaja o se está en contacto con los fluidos corporales. Los fluidos corporales considerados en la precaución universal y que son manejados por el personal funerario son: la sangre, el semen, la secreción vaginal o cualquier otra sustancia o componente corporal que esté visiblemente con sangre, como las heces fecales.
-          p.mb-5.pt-4.pe-0 Como precaución estándar desde el área administrativa a nivel empresarial, se deben tener capacitaciones de salud ocupacional por agencias de riesgos laborales ARL; también se recomienda tener a disposición de todo el personal los manuales e instructivos que facilitan la consulta continua de cómo actuar o proceder en casos de accidentes en las áreas de riesgo biológico específicos de cada empresa.
+        .col-12.col-md-4.align-items-center.mb-3.mb-md-0
+          figure.justify-center
+            img.img192(src="@/assets/curso/tema1/img06.png")
+        .col-12.col-md-6(data-aos="fade-left").justify-end
+          div.p-5.p-md-0
+            span.etiqueta Para cumplir con esta medida, es necesario que siempre se usen los elementos de barrera que estén a la disposición y al alcance de todo el personal,
+            span sobre todo en las áreas en que se trabaja o se está en contacto con los fluidos corporales. Los fluidos corporales considerados en la precaución universal y que son manejados por el personal funerario son: la sangre, el semen, la secreción vaginal o cualquier otra sustancia o componente corporal que esté visiblemente con sangre, como las heces fecales.
+            p.mt-3 Como precaución estándar desde el área administrativa a nivel empresarial, se deben tener capacitaciones de salud ocupacional por agencias de riesgos laborales ARL; también se recomienda tener a disposición de todo el personal los manuales e instructivos que facilitan la consulta continua de cómo actuar o proceder en casos de accidentes en las áreas de riesgo biológico específicos de cada empresa.
     
     <br>
     .bg_contenedor
@@ -194,7 +196,7 @@
       p.mt-2.pt-5 Así se da inicio a la caracterización de estos mecanismos de barreras contundentes, a partir de la comprensión del sistema de defensa innato y adquirido del ser humano, donde se hablará sobre la barrera de inmunización activa para lo cual lo invitamos a revisar con atención el siguiente recurso educativo.
 
       .row.justify-content-center
-        .col-lg-10
+        .col-12.col-lg-10
           SlyderA.bg03.mt-5(data-aos="fade-right")
             .row.justify-content-center
               .col-10
@@ -258,12 +260,12 @@
         .col-lg-7.mb-5(data-aos="fade-right") 
           p Es importante ampliar los aspectos relacionados con los riesgos químicos, porque pueden generar varias enfermedades de tipo ocupacional para los trabajadores en el área de la cosmética ornamental.
           .tarjeta.color.color.bg03.p-3.mb-2.pe-4
-            .row.justify-content-center.align-items-center
-              .col-8.ps-0.pt-2
+            .row.justify-content-center.align-items-center.p-2.p-md-0
+              .col-12.col-md-8.ps-0
                 p <h5 style="color:#483C8C !important; font-weight: bold;">Para ello, le invitamos a leer las páginas 4 a 18 del documento 
                   span.fst-italic Riesgo químico en peluquerías 
                   | que se encuentra a continuación.</h5>
-              .col-4.col-md-2.mb-3.mb-sm-0
+              .col-12.col-md-2.mb-3.mb-sm-0
                 a.mb-4.me-5.pt-2.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/RIESGO_PELUQUERIA.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
@@ -327,9 +329,9 @@
         .col-lg-10
           .tarjeta.color.color.bg03.p-3.mb-5
             .row.justify-content-around.align-items-center
-              .col-8
+              .col-12.col-md-8
                 <h5 style="color:#483C8C !important; font-weight: bold;"> Para más información le invitamos a consultar la Resolución 2827 de 2006 por la cual se adopta el manual de bioseguridad para establecimientos que desarrollen actividades cosméticas o con fines de embellecimiento facial, capilar, corporal y ornamental. </h5>
-              .col-3.col-md-2.mb-3.mb-sm-0
+              .col-12.col-md-2.mb-3.mb-sm-0
                 a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Resolucion_2827_de_2006.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download

@@ -22,24 +22,24 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-md-6.col-lg-4.mb-5.mb-lg-0.align.self-center(data-aos="fade-right") 
           .tarjeta-avatar.pb-4.a_tarjeta.me-2
-            img.pb-5(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop' style= "opacity: 0.9")
+            img.pb-5(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
             .tarjeta.color.bg01.border.border-info
               .p-4
                 h3.pt-2.text-center Elementos internos
                 p.m-4.pb-1 Se caracterizan por aquellos componentes que están en el cosmético. Este desempeñará la función específica para lo cual fue fabricado.
         .col-md-6.col-lg-4.mb-5.mb-lg-0.align.self-center(data-aos="fade-left") 
           .tarjeta-avatar.pb-4.a_tarjeta.ms-1
-            img.pb-5(src='@/assets/curso/tema2/img04.png' alt='AvatarTop' style= "opacity: 0.9")
+            img.pb-5(src='@/assets/curso/tema2/img04.png' alt='AvatarTop')
             .tarjeta.color.bg01.border.border-info
               .p-4
                 h3.pt-2.text-center Elementos externos
                 p.mt-4.mx-3.pb-2 Corresponde a los elementos adicionales como el envase, cartón, empaque, etiquetado, prospecto y medios de difusión.
         
         .row.justify-content-center.align-items-center
-          .col-md-6.col-lg-4.mb-5.align.self-center(data-aos="fade-right") 
-            p.text-end.pb-4 <b>La clasificación de los cosméticos se puede realizar en el marco de tres variables:</b>
-          .col-md-6.col-lg-4.mb-5.pe-5(data-aos="fade-left") 
-            .tarjeta.bg10.p-4 
+          .col-md-4.col-lg-4.mb-5.mb-md-0.align.self-center(data-aos="fade-right") 
+            p.text-end <b>La clasificación de los cosméticos se puede realizar en el marco de tres variables:</b>
+          .col-md-3.col-lg-4.mb-5.pe-5(data-aos="fade-left") 
+            .tarjeta.bg10.pt-4.pb-4.pe-5.ps-5 
               ol.lista-ol.mb-0
                 li 
                   .lista-ol.BGIMG04
@@ -49,7 +49,7 @@
                   .lista-ol.BGIMG04
                     span.ps-2.me-2 2
                   p.ps-2.pb-0.mb-0 Nivel de uso.
-                li 
+                li.m-0 
                   .lista-ol.BGIMG04
                     span.ps-2.me-2 3
                   p.ps-2.pb-0.mb-0 Zona de acción.

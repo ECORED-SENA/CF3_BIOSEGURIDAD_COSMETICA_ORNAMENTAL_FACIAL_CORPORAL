@@ -84,10 +84,25 @@
 .img781
   max-width: 781px
 
-
-.img-especial
-  margin-top: -73px;
-  margin-inline-start: -20px;
+.justify-center
+  display: flex
+  justify-content: center
+  flex-direction: row
+.align-items-center
+  display: flex
+  justify-content: flex-start
+  flex-direction: row
+.justify-end
+  display: flex
+  justify-content: flex-end
+  flex-direction: row
+.justify-align
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+    
 
 .a_tarjeta
   margin-top: -33px;
@@ -134,6 +149,25 @@
 
 .align-self-start
   align-self: flex-start;
+
+.bg_grad-01
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 4rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema1/img29.svg")
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 400px )
+      background-size: cover
+        
 
 .bg-header
   background-image: url("../assets/curso/tema1/img29.svg");
@@ -425,3 +459,10 @@
 
 .tabs-b__tab__title
   font-size: 18px
+
+.bloque-texto-g__img
+  @media screen and (max-width: $bp-max-xs)
+    width: 100%
+.bloque-texto-g__texto
+  @media screen and (max-width: $bp-max-xs)
+    width: 100%
