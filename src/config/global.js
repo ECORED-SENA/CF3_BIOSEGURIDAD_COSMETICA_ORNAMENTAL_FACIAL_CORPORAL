@@ -109,12 +109,6 @@ export default {
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50239',
     },
-    {
-      referencia:
-        'Wilkinson, J. B. (1990). Cosmetología de Harry. Ediciones Díaz de Santos.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/55473',
-    },
   ],
   glosario: [
     {
@@ -154,12 +148,6 @@ export default {
       tipo: 'Libro digital',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50239',
-    },
-    {
-      texto: 'Manejo de productos y equipos cosméticos',
-      tipo: 'Libro digital',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/55473',
     },
   ],
   creditos: {
