@@ -150,7 +150,7 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Normas de seguridad',
+      texto: 'Cosmetología para estética y belleza',
       tipo: 'Libro digital',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50239',

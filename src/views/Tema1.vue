@@ -254,7 +254,7 @@
         .col-lg-5.bg06.p-5(data-aos="fade-right")
           h2.mb-5.pt-3 Agente químico y cosmético  
           p.mb-4 De acuerdo con Lozano y Montero (2015), los colaboradores del sector de cosmética ornamental, facial y corporal presentan exposición a varios productos químicos en la ejecución de sus actividades, en su mayoría estos químicos son de tipo tóxico. 
-          p Por lo general, los químicos que se pueden presentar este nivel de toxicidad son: productos para tinturar el cabello, productos para cuidar el sistema tegumentario y las uñas, el líquidos para realizar arreglo de uñas permanentes, los champús, los productos para realizar maquillaje, los productos para realizar procesos de limpieza y desinfección, entre otros agentes contaminantes que, si no se alinean con las debidas normas de seguridad, pueden generar un grave riesgo de salud para los colaboradores.
+          p Por lo general, los químicos que se pueden presentar este nivel de toxicidad son: productos para tinturar el cabello, productos para cuidar el sistema tegumentario y las uñas, los líquidos para realizar arreglo de uñas permanentes, los champús, los productos para realizar maquillaje, los productos para realizar procesos de limpieza y desinfección, entre otros agentes contaminantes que, si no se alinean con las debidas normas de seguridad, pueden generar un grave riesgo de salud para los colaboradores.
     
       .row.justify-content-center.mt-4
         .col-lg-7.mb-5(data-aos="fade-right") 

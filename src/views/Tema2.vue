@@ -83,7 +83,7 @@
               ul.lista-ul
                 li 
                   <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
-                  | Para la zona superficial de la piel (cremas, protector solar. exfoliante). 
+                  | Para la zona superficial de la piel (cremas, protector solar, exfoliante). 
                 li 
                   <i class="fas fa-circle fa-xs" style= "color:#4BB3C7 !important;"></i>
                   | Para la piel de la cara. 
